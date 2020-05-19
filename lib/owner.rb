@@ -13,7 +13,8 @@ class Owner
   def self.all
     @@all
   end
-
+  def self.count
+  end
 
   # code goes here
 end
