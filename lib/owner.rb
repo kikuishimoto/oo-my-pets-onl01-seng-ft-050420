@@ -14,4 +14,3 @@ class Owner
   end
   # code goes here
 end
-
