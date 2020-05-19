@@ -9,5 +9,5 @@ class Dog
     @owner = Owner
     @@all << self
   end
-  
+
 end
