@@ -9,4 +9,8 @@ class Cat
     @owner = Owner
     @@all << self
   end
+  def self.all 
+    @@all
+  end 
+  
 end
