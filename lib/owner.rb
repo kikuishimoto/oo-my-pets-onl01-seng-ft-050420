@@ -6,11 +6,11 @@ class Owner
     @species = species
 
   end
+  def says_species
+  end
   def self.all
     @@all
   end
-  def cats
-    Cats.all.select {|cat| cat.name == self}
-  end
+
   # code goes here
 end
